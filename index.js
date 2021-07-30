@@ -6,7 +6,7 @@ const validateLineup = (lineup) => {
 
 // Check Salary
 const checkSalary = (lineup) => {
-  let totalSalary = 0;
+  let totalSalary = 0
 
   lineup.forEach(player => totalSalary += player.salary)
 
